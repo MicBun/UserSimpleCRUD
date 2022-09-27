@@ -18,6 +18,11 @@ How to use
 Database
 1. Database included and can be accessed at http://localhost:5003
 ---
+Screenshot
+```
+Screenshot can be seen at screenshot folder
+```
+---
 Credential
 1. phpmyadmin
 ```
