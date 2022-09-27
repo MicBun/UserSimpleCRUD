@@ -10,7 +10,7 @@ import (
 func ConnectDataBase() *gorm.DB {
 	username := "root"
 	password := "root"
-	host := "tcp(127.0.0.1:3306)"
+	host := "tcp(host.docker.internal:33066)"
 	database := "database_user"
 
 	dsn := fmt.Sprintf("%v:%v@%v/%v?charset=utf8mb4&parseTime=True&loc=Local", username, password, host, database)
